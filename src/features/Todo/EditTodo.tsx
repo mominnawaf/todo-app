@@ -39,7 +39,7 @@ function EditTodo() {
         id: todos[todoId].id,
         title: title,
         createdAt: todos[todoId].createdAt,
-        completed: todos[todoId].completed,
+        completed: check,
         remindAt: selectedDate.toISOString()
       }
       const body = {
